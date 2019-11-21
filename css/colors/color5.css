@@ -1,0 +1,171 @@
+::selection {background: #37b4ee;}
+::-moz-selection {background: #37b4ee;}
+
+
+a:hover, a:focus {color:#37b4ee;}
+
+.color_text {color:#37b4ee;}
+
+.color_bg {background-color:#37b4ee;}
+
+
+/* __________ Buttons __________ */
+.btn {color:#fff; background: #333;}
+.btn:focus, .btn:hover {color:#fff; background-color:#37b4ee;}
+
+
+/* colors */
+.btn-white {color:#37b4ee; background:#fff;}
+.btn-white:hover {color:#fff; background:#333;}
+
+.btn-light {background:#aeaeae;}
+.btn-light:hover {background:#333;}
+
+.btn-active {color:#fff; background-color:#37b4ee;}
+.btn-active:hover {color:#fff; background-color:#333;}
+
+
+.leave_comment .clear_form, .contacts_block #ajax-contact-form .clear_form {background-color:#37b4ee;}
+
+
+/* _________ //Buttons _________ */
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	INDEX PAGE
+/*-----------------------------------------------------------------------------------*/
+.top_slider .btn {color:#37b4ee !important;}
+
+
+.social li a:hover {background-color: #37b4ee;}
+
+
+.navbar-nav li:hover a, .navbar-nav li a:focus, .navbar-nav li.active a {color:#37b4ee;}
+.sub-menu ul li a:hover, .sub-menu ul li.active a {background:#37b4ee !important;}
+ul.mega_menu li ol li.active a, ul.mega_menu li ol li a:hover {color:#37b4ee !important;}
+
+
+.service_item a:hover {border-color:#37b4ee;}
+.service_item i {color:#37b4ee; box-shadow:0 0 2px 2px #37b4ee;}
+.service_item a:hover i {background-color:#37b4ee;}
+
+
+.jumbotron {background-color:#37b4ee;}
+
+
+.inform_content:hover p {color:#37b4ee;}
+
+
+.project_item .hover_img {background-color:#37b4ee;}
+.project_item a.zoom {color:#37b4ee;}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	//INDEX PAGE
+/*-----------------------------------------------------------------------------------*/
+
+
+.navbar-toggle:hover em {background-color:#37b4ee;}
+
+
+
+/* __________ Blog __________ */
+#sidebar .tags a:hover, .tags a:hover {background: #37b4ee;}
+.tags a:hover {background-color:#37b4ee;}
+
+.FlickrImages li a {background-color:#37b4ee;}
+
+footer .tweet_module .tweet_time a {color:#37b4ee;}
+
+.foot_menu li a:hover, .foot_menu li.active a {color:#37b4ee;}
+
+.tweet_module.index_page {background-color:#37b4ee;}
+/* _________ //Blog _________ */
+
+
+/* __________ About __________ */
+/* __________ Skills __________ */
+.progress-complete {background: #37b4ee;}
+/* _________ //About _________ */
+
+
+/* __________ Portfolio __________ */
+#filter li a.selected {background-color:#37b4ee;}
+.portfolio_block .project .hover_img {background-color:#37b4ee;}
+.portfolio_block .project:hover .project_descr {border-bottom-color:#37b4ee;}
+/* _________ //Portfolio _________ */
+
+
+/* __________ Shop __________ */
+.product_sort #filter li a:hover, .product_sort #filter li a.selected {color:#37b4ee;}
+
+#price-range .ui-widget-header {background: #37b4ee;}
+
+.product_item2:hover {border-color:#37b4ee;}
+
+.product_inf .btn:hover {background-color:#37b4ee; border-color:#37b4ee;}
+
+.variable-sizes .product_item .item_btn_in a.btn:hover {background-color:#37b4ee;}
+
+.sale {background-color:#37b4ee;}
+
+.type2 .product_price {color:#37b4ee;}
+.quantity_block .product_inf .btn.add_cart {border-color:#37b4ee; color:#37b4ee;}
+.quantity_block .product_inf .btn.add_cart:hover {border-color:#37b4ee; background-color:#37b4ee;}
+/* _________ //Shop _________ */
+
+
+/* __________ Shortcodes __________ */
+.nav-tabs li a:hover {color:#37b4ee;}
+.divider_colored {border-color:#37b4ee;}
+
+.most_popular .price_item_btn a, .price_item_btn a:hover {background:#37b4ee;}
+.most_popular .price_item_title {background:#37b4ee;}
+
+blockquote.type3:before {background-color:#37b4ee;}
+/* _________ //Shortcodes _________ */
+
+
+/* __________ Footer __________ */
+footer h3 {color:#37b4ee;}
+footer a:hover {color:#37b4ee;}
+
+.foot_links li span {color:#37b4ee;}
+
+footer .recent_posts li:hover .post_title {color:#37b4ee;}
+
+.copyright span {color:#37b4ee;}
+
+#newsletter-form input.contact_btn {background-color:#37b4ee;}
+/* _________ //Footer _________ */
+
+
+.search_form input.search_btn {background-color:#37b4ee !important;}
+
+
+.jCarousel_pagination a:hover {background-color:#37b4ee;}
+
+
+.most_popular .price_item_cost h2,
+.most_popular .price_item_cost h2 span {
+	color:#37b4ee;
+}
+
+
+.jcarousel-pagination a {background-color:#37b4ee;}
+
+.flex-control-paging li a:hover {background-color:#37b4ee;}
+.flex-control-paging li a.flex-active {background-color:#37b4ee;}
+
+footer input.contact_btn:hover {background-color:#37b4ee;}
+
+
+
+
+
+
+
