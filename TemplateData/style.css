@@ -13,6 +13,6 @@
 
 .webgl-content .footer {margin-top: 5px; height: 160px; line-height: 30px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px; padding-top: 50px;}
 .webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
-.webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 528px; float: left; padding-left: 50%;}
+.webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 528px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
