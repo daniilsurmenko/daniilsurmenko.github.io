@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="TemplateData/style.css">
 <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"></head>
 <body>
-  <div id="unity-container" class="unity-desktop" style="width: 80%;">
+  <div id="unity-container" class="unity-desktop" style="width: 100%; height: 100%;">
     <canvas id="unity-canvas" style="width: 100%; cursor: default;" width="1920" height="900"></canvas>
     <div id="unity-loading-bar" style="display: none;">
       <div id="unity-logo"></div>
@@ -17,6 +17,7 @@
     </div>
     <div id="unity-footer">
       <div id="unity-webgl-logo"></div>
+      <div id="unity-fullscreen-button"></div>
       <div id="unity-build-title"></div>
     </div>
   </div>
@@ -48,6 +49,9 @@
         progressBarFull.style.width = 100 * progress + "%";
       }).then((unityInstance) => {
         loadingBar.style.display = "none";
+        fullscreenButton.onclick = () => {
+          unityInstance.SetFullscreen(1);
+        };
       }).catch((message) => {
         alert(message);
       });
