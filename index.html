@@ -1,83 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-us" class="translated-ltr"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>1 Question</title>
-  <link rel="shortcut icon" href="TemplateData/favicon.ico">
-  <link rel="stylesheet" href="TemplateData/style.css">
-<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"></head>
-<body>
-  <div class="webgl-content" style="width: 100%; padding-top: 200px;">
-    <div id="unity-container" class="unity-desktop" style="width: 100%; height: 100%;">
-      <canvas id="unity-canvas" style="width: 100%; cursor: default;" width="1920" height="1080"></canvas>
-      <div id="unity-loading-bar" style="display: none;">
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | 2 Question</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas"></canvas>
+      <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full" style="width: 100%;"></div>
+          <div id="unity-progress-bar-full"></div>
         </div>
       </div>
       <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title"></div>
+        <div id="unity-build-title">2 Question</div>
       </div>
     </div>
-  </div>>
-  <script>
-    var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/daniilsurmenko.github.io.loader.js";
-    var config = {
-      dataUrl: buildUrl + "/daniilsurmenko.github.io.data",
-      frameworkUrl: buildUrl + "/daniilsurmenko.github.io.framework.js",
-      codeUrl: buildUrl + "/daniilsurmenko.github.io.wasm",
-      streamingAssetsUrl: "StreamingAssets",
-      companyName: "fi.ru",
-      productName: "first-question",
-      productVersion: "1.0",
-    };
+    <script>
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/daniilsurmenko.github.io.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/daniilsurmenko.github.io.data.gz",
+        frameworkUrl: buildUrl + "/daniilsurmenko.github.io.framework.js.gz",
+        codeUrl: buildUrl + "/daniilsurmenko.github.io.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "fi.ru",
+        productName: "2 Question",
+        productVersion: "1.0",
+      };
 
-    var container = document.querySelector("#unity-container");
-    var canvas = document.querySelector("#unity-canvas");
-    var loadingBar = document.querySelector("#unity-loading-bar");
-    var progressBarFull = document.querySelector("#unity-progress-bar-full");
-    var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
 
-    loadingBar.style.display = "block";
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        config.devicePixelRatio = 1;
+      } else {
+        canvas.style.width = "960px";
+        canvas.style.height = "540px";
+      }
+      loadingBar.style.display = "block";
 
-    var script = document.createElement("script");
-    script.src = loaderUrl;
-    script.onload = () => {
-      createUnityInstance(canvas, config, (progress) => {
-        progressBarFull.style.width = 100 * progress + "%";
-      }).then((unityInstance) => {
-        loadingBar.style.display = "none";
-        fullscreenButton.onclick = () => {
-          unityInstance.SetFullscreen(1);
-        };
-      }).catch((message) => {
-        alert(message);
-      });
-    };
-    document.body.appendChild(script);
-  </script><script src="Build/daniilsurmenko.github.io.loader.js"></script><script src="Build/daniilsurmenko.github.io.loader.js"></script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Переводчик"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Исходный текст</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Предложить лучший вариант перевода</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
-
-
-<div class="goog-te-spinner-pos">
-  <div class="goog-te-spinner-animation">
-    <svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66">
-      <circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30">
-
-      </circle>
-    </svg>
-  </div>
-</div>
-<script src="Build/daniilsurmenko.github.io.framework.js"></script>
-<div id="goog-gt-tt" class="skiptranslate" dir="ltr">
-  <div style="padding: 8px;">
-    <div>
-      <div class="logo">
-        <img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Переводчик">
-      </div>
-    </div>
-  </div>
-  <div class="top" style="padding: 8px; float: left; width: 100%;">
-    <h1 class="title gray">Исходный текст</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Предложить лучший вариант перевода</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><script src="Build/daniilsurmenko.github.io.framework.js"></script><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
