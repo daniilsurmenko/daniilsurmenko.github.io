@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "2 Question",
+"productVersion": "0.1",
+"dataUrl": "second-question.data.unityweb",
+"wasmCodeUrl": "second-question.wasm.code.unityweb",
+"wasmFrameworkUrl": "second-question.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.12f1"
+}
