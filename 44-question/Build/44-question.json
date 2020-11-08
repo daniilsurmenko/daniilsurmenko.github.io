@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "44 Question",
+"productVersion": "0.1",
+"dataUrl": "44-question.data.unityweb",
+"wasmCodeUrl": "44-question.wasm.code.unityweb",
+"wasmFrameworkUrl": "44-question.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.12f1"
+}
