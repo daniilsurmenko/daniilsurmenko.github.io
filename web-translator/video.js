@@ -7,8 +7,10 @@
      video: true,
      audio: false
     }, function(stream) {
-     video.src = vendorUrl.createObjectURL(stream);
-     video.play();
+        const mediaStream = await navigator.mediaDevices.getUserMedia({video: true});
+        const video = document.createElement('video');
+        video.srcObject = mediaStream;
+        video.play();
     }, function(error) {
      alert('Ошибка! Что-то пошло не так, попробуйте позже.');
     });
