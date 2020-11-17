@@ -6,9 +6,8 @@
     navigator.getMedia({
      video: true,
      audio: false
-    }, function(stream) {
+    }, async function(stream) {
         const mediaStream = await navigator.mediaDevices.getUserMedia({video: true});
-        const video = document.createElement('video');
         video.srcObject = mediaStream;
         video.play();
     }, function(error) {
